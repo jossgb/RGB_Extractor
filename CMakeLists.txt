@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(RGB_Extractor main.cpp)
 include_directories("/usr/local/include")
 include_directories("/opt/X11/include")
-include_directories("/Volumes/Dev/CImg")
+include_directories("CImg")
 
 target_link_directories(RGB_Extractor PUBLIC /usr/local/lib)
 target_link_directories(RGB_Extractor PUBLIC /opt/X11/lib)
